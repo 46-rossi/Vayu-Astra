@@ -284,6 +284,16 @@ Future development of the project can include:
 
 ---
 
+## 📖 Technical Documentation
+
+Detailed engineering documentation is maintained separately from this project overview.
+
+### Available Documents
+
+- [⚙️ Technical Design Document](docs/TECHNICAL_DESIGN.md) — Detailed system architecture, sensor stack, sensor-fusion pipeline, high-altitude environmental design, mechanical and thermal considerations, prototype development plan, validation metrics, and engineering limitations.
+
+---
+
 <a id="research"></a>
 
 ## 📚 Research Areas
