@@ -29,7 +29,7 @@
 
 ---
 
----
+
 
 <a id="project-overview"></a>
 
@@ -112,6 +112,24 @@ Maintains continuous target tracks using fused observations from multiple sensor
 ### 4. Environmental Compensation Layer
 Compensates for high-altitude effects including temperature variation, mechanical drag, reduced cooling and optical degradation.
 
+
+### System-Level Architecture
+
+```mermaid
+flowchart LR
+    R["X-Band FMCW Radar"] --> SF["AI / Sensor Fusion"]
+    RF["Passive RF Direction Finder"] --> SF
+    EO["EO / IR Sensor"] --> SF
+
+    SF --> DC["Detection & Classification"]
+    DC --> TR["Target Tracking"]
+    TR --> RI["Response Interface"]
+
+    ENV["Environmental Monitoring"] --> COMP["High-Altitude Compensation"]
+    COMP --> SF
+    COMP --> TR
+```
+
 ---
 
 <a id="design-envelope"></a>
@@ -128,6 +146,31 @@ The proposed system is designed around the following environmental targets:
 | Wind Gusts | Up to 140 km/h |
 | Environment | Snow, frost, high UV and abrasive conditions |
 | Electronics | EMI/EMC protected |
+
+
+### Environmental Challenge & Compensation Architecture
+
+```mermaid
+flowchart TD
+
+    TEMP["Extreme Cold<br/>-40°C"] --> MECH["Cable Stiffness &<br/>Mechanical Drag"]
+    PRESS["Low Pressure<br/>~470 hPa"] --> THERM["Reduced Convective<br/>Cooling"]
+    FROST["Snow / Frost /<br/>Condensation"] --> OPT["Optical Degradation"]
+    WIND["Wind Gusts<br/>up to 140 km/h"] --> STAB["Vibration &<br/>Pointing Error"]
+    TERRAIN["Mountainous<br/>Terrain"] --> BLIND["Clutter &<br/>Sensor Blind Spots"]
+
+    MECH --> C1["Heated Gimbal +<br/>Flexible Cable Routing"]
+    THERM --> C2["Enhanced Thermal<br/>Management"]
+    OPT --> C3["Protected & Heated<br/>Optical Assembly"]
+    STAB --> C4["Adaptive Disturbance<br/>Compensation"]
+    BLIND --> C5["Multi-Sensor +<br/>Cross-Station Sensing"]
+
+    C1 --> OUTPUT["High-Altitude<br/>Operational Reliability"]
+    C2 --> OUTPUT
+    C3 --> OUTPUT
+    C4 --> OUTPUT
+    C5 --> OUTPUT
+```
 
 ---
 
