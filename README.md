@@ -294,6 +294,7 @@ Detailed engineering documentation is maintained separately from this project ov
 
 - [📚 Research & Technical References](docs/REFERENCES.md) — Verified engineering standards and reference sources used to guide environmental, EMI/EMC, and aerospace wiring considerations.
 
+
 ---
 
 <a id="research"></a>
