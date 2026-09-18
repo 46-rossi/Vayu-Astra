@@ -10,6 +10,29 @@
 
 ---
 
+## 📑 Table of Contents
+
+- [Project Overview](#project-overview)
+- [Problem Statement](#problem-statement)
+- [Proposed Solution](#proposed-solution)
+- [System Architecture](#system-architecture)
+- [High-Altitude Design Envelope](#design-envelope)
+- [Key Engineering Innovations](#engineering-innovations)
+- [Operational Workflow](#operational-workflow)
+- [Development Status](#development-status)
+- [Potential Applications](#applications)
+- [Indigenous Development](#indigenous-development)
+- [Future Development](#future-development)
+- [Research Areas](#research)
+- [Team](#team)
+- [Project Status](#project-status)
+
+---
+
+---
+
+<a id="project-overview"></a>
+
 ## 📌 Project Overview
 
 Vayu Astra is a high-altitude anti-drone system concept developed for Smart India Hackathon 2026. The project focuses on maintaining reliable drone detection, tracking and identification under extreme high-altitude environmental conditions.
@@ -19,6 +42,8 @@ Conventional anti-drone systems can experience performance degradation in mounta
 Vayu Astra addresses these challenges through a rugged multi-sensor architecture combining radar, passive RF sensing, EO/IR tracking, sensor fusion and environmental compensation.
 
 ---
+
+<a id="problem-statement"></a>
 
 ## 🎯 Problem Statement
 
@@ -40,6 +65,8 @@ For precision surveillance systems, even small mechanical or thermal disturbance
 The objective of Vayu Astra is therefore to develop a **rugged and adaptive high-altitude anti-drone architecture** capable of maintaining sensing and tracking performance under extreme Himalayan environmental conditions.
 
 ---
+
+<a id="proposed-solution"></a>
 
 ## 💡 Proposed Solution
 
@@ -67,6 +94,8 @@ The system maintains continuous tracking and provides a response interface for a
 
 ---
 
+<a id="system-architecture"></a>
+
 ## ⚙️ System Architecture
 
 The proposed architecture consists of four major functional layers:
@@ -85,6 +114,8 @@ Compensates for high-altitude effects including temperature variation, mechanica
 
 ---
 
+<a id="design-envelope"></a>
+
 ## 🏔️ High-Altitude Design Envelope
 
 The proposed system is designed around the following environmental targets:
@@ -99,6 +130,8 @@ The proposed system is designed around the following environmental targets:
 | Electronics | EMI/EMC protected |
 
 ---
+
+<a id="engineering-innovations"></a>
 
 ## 🔬 Key Engineering Innovations
 
@@ -127,6 +160,8 @@ Multiple sensing stations can exchange tracking information to reduce terrain-in
 
 ---
 
+<a id="operational-workflow"></a>
+
 ## 🔄 Operational Workflow
 
 ```text
@@ -146,6 +181,8 @@ EO / IR ────┘                           ▼
 
 ---
 
+<a id="development-status"></a>
+
 ## 🧩 Development Status
 
 Vayu Astra is currently being developed as an engineering concept and prototype architecture for Smart India Hackathon 2026.
@@ -162,6 +199,8 @@ Current work focuses on:
 
 ---
 
+<a id="applications"></a>
+
 ## 🚀 Potential Applications
 
 The underlying sensing and high-altitude engineering architecture may support applications such as:
@@ -175,13 +214,19 @@ The underlying sensing and high-altitude engineering architecture may support ap
 
 ---
 
+<a id="indigenous-development"></a>
+
 ## 🇮🇳 Indigenous Development
+
 Vayu Astra emphasizes a modular architecture that can progressively incorporate domestically developed electronics, mechanical components, signal-processing software and sensor-fusion algorithms.
 The modular approach also allows individual subsystems to be upgraded without redesigning the complete platform.
 
 ---
 
+<a id="future-development"></a>
+
 ## 🔮 Future Development
+
 Future development of the project can include:
 - Physical prototype development
 - Environmental chamber testing
@@ -196,7 +241,10 @@ Future development of the project can include:
 
 ---
 
+<a id="research"></a>
+
 ## 📚 Research Areas
+
 The project draws on engineering research and standards covering:
 - Environmental qualification
 - EMI/EMC testing
@@ -210,7 +258,10 @@ Detailed references will be maintained separately in the project documentation.
 
 ---
 
+<a id="team"></a>
+
 ## 👥 Team
+
 Team Name: Vayu Astra
 Competition: Smart India Hackathon 2026
 Problem Statement: SIH26050
@@ -219,7 +270,10 @@ Theme: Defence & Strategic Technologies
 
 ---
 
- ## 📄 Project Status
+ <a id="project-status"></a>
+ 
+## 📄 Project Status
+
 🚧 Research & Prototype Development
 
 This repository documents the ongoing engineering design, research and prototype development of Vayu Astra for Smart India Hackathon 2026.
