@@ -292,6 +292,8 @@ Detailed engineering documentation is maintained separately from this project ov
 
 - [⚙️ Technical Design Document](docs/TECHNICAL_DESIGN.md) — Detailed system architecture, sensor stack, sensor-fusion pipeline, high-altitude environmental design, mechanical and thermal considerations, prototype development plan, validation metrics, and engineering limitations.
 
+- [📚 Research & Technical References](docs/REFERENCES.md) — Verified engineering standards and reference sources used to guide environmental, EMI/EMC, and aerospace wiring considerations.
+
 ---
 
 <a id="research"></a>
