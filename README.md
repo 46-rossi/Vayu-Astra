@@ -96,7 +96,7 @@ The system maintains continuous tracking and provides a response interface for a
 
 Explore the Vayu Astra system in an interactive 3D view.
 
-### ▶ [View Vayu Astra 3D Model](vayu-astra-3d-model.html)
+### ▶ [View Vayu Astra 3D Model](https://46-rossi.github.io/Vayu-Astra/vayu-astra-3d-model.html)
 
 You can rotate, zoom, and inspect the prototype directly in your browser.
 
