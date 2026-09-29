@@ -92,6 +92,14 @@ Sensor data is filtered, correlated and processed to support target identificati
 **RESPOND**  
 The system maintains continuous tracking and provides a response interface for authorized counter-UAS actions.
 
+## 🧊 Interactive 3D Prototype
+
+Explore the Vayu Astra system in an interactive 3D view.
+
+### ▶ [View Vayu Astra 3D Model](vayu-astra-3d-model.html)
+
+You can rotate, zoom, and inspect the prototype directly in your browser.
+
 ---
 
 <a id="system-architecture"></a>
