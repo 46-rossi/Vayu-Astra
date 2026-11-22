@@ -105,3 +105,20 @@ defence system.
 [View SIH 2026 Presentation](Final%20ppt.pptx)
 
 This presentation is archived as part of the Vayu Astra SIH 2026 project documentation.
+
+
+
+---
+
+## AI-Generated Concept Video
+
+**[Watch / Download the Vayu Astra SIH 2026 Concept Video](https://github.com/46-rossi/Vayu-Astra/releases/download/sih-2026-concept-video/youtube.video.mp4)**
+
+**Video Type:** AI-generated concept visualization
+
+**Purpose:** Illustrates the proposed Vayu Astra system, project vision, and potential future capabilities.
+
+**Important:** This video is AI-generated and does not contain actual footage of the working physical prototype. Features shown may not yet be implemented or tested.
+
+For verified development information, see the [Prototype Status](../../docs/PROTOTYPE_STATUS.md).
+
