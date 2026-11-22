@@ -341,3 +341,17 @@ Theme: Defence & Strategic Technologies
 🚧 Research & Prototype Development
 
 This repository documents the ongoing engineering design, research and prototype development of Vayu Astra for Smart India Hackathon 2026.
+
+
+
+---
+
+## 3D Prototype Model
+
+### Latest Version — V14
+
+[View Latest Vayu Astra 3D Model](3d-models/V14.html)
+
+This updated 3D model includes the Raspberry Pi Camera Module 3, ESP32, MG996R pan/tilt servos, and supporting components.
+
+**Thermal Sensor:** Included in the design as a planned upgrade. Physical installation and testing are pending.
