@@ -97,3 +97,11 @@ This is a development record.
 It does not claim that the prototype is
 a certified or deployed counter-drone
 defence system.
+
+
+
+## Project Presentation
+
+[View SIH 2026 Presentation](Final%20ppt.pptx)
+
+This presentation is archived as part of the Vayu Astra SIH 2026 project documentation.
