@@ -350,8 +350,19 @@ This repository documents the ongoing engineering design, research and prototype
 
 ### Latest Version — V14
 
-[View Latest Vayu Astra 3D Model](3d-models/V14.html)
+**[Explore the Interactive Vayu Astra 3D Model](https://46-rossi.github.io/Vayu-Astra/3d-models/V14.html)**
 
-This updated 3D model includes the Raspberry Pi Camera Module 3, ESP32, MG996R pan/tilt servos, and supporting components.
+[View the 3D Model Source File](3d-models/V14.html)
 
-**Thermal Sensor:** Included in the design as a planned upgrade. Physical installation and testing are pending.
+The V14 design represents the updated Vayu Astra prototype, including:
+
+- Raspberry Pi Camera Module 3
+- ESP32 microcontroller
+- MG996R pan/tilt servos
+- Power distribution system
+- Laser pointer and supporting components
+- Planned thermal sensor mounting position
+
+**Thermal Sensor Status:** Included in the 3D design as a planned upgrade. Physical installation and testing are pending.
+
+The interactive model allows visitors to explore the prototype layout directly in their browser.
